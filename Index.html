@@ -1,0 +1,155 @@
+<!Doctype html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo_index.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="IMG/Logo/Logo.png" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+	<title>CheckPoint - Home</title>
+</head>
+
+<body>
+	<div class="menu-responsivo">
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="checkpoint.html">CheckPoint</a>
+			</li>
+			<li>
+				<a href="sobre.html">Sobre</a>
+			</li>
+			<li>
+				<a href="contato.html">Contato</a>
+			</li>
+		</ul>
+	</div>
+	<div class="layout layout1">
+		<header>
+			<nav class="menu">
+				<div class="menu-logo">
+					<a href="index.html">
+						<img src="IMG/Logo/Logo.png" alt="Logotipo CheckPoint">
+					</a>
+				</div>
+				<a class="toggle" href="javascript:;"><i class="fas fa-bars"></i></a>
+				<div class="menu-links">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="checkpoint.html">CheckPoint</a>
+						</li>
+						<li>
+							<a href="sobre.html">Sobre</a>
+						</li>
+						<li>
+							<a href="contato.html">Contato</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="fundo">
+				<h1>A CarFel elaborou uma maneira inovadora para agilizar seus processos de trabalho
+					<br>
+					<a href="checkpoint.html">Saiba mais</a>
+				</h1>
+			</div>
+		</header>
+		<main>
+			<section class="conteudo1">
+				<div class="imagens">
+					<div class="im1">
+						<img src="IMG/Interatividade_início/Codigo2.jpeg" alt="Linguagem de Programação">
+					</div>
+					<div class="im2">
+						<img src="IMG/Interatividade_início/Notebook.jpg" alt="Notebook Aberto">
+					</div>
+					<div class="im3">
+						<img src="IMG/Interatividade_início/Codigo1.jpeg" alt="Linguagem de Programação 2">
+					</div>
+				</div>
+				<div class="texto">
+					<h1>Otimize seus processos de trabalho e ganhe tempo</h1>
+					<p>Lorem ipsum dolor sit amet dolores ab lorem ipsum dolor sit amet Lorem ipsum dolor sit amet dolores ab lorem
+						ipsum dolor
+						ab lorem ipsum dolor sit amet Lorem ipsum dolor sit amet dolores sit amet.</p>
+					<p>Lorem ipsum dolor sit sit amet Lorem ipsum dolor sit amet dolores amet dolores ab lorem ipsum dolor sit amet
+						consecutor
+						dolores ab.</p>
+				</div>
+			</section>
+			<div class="conteudo2">
+				<div class="texto2">
+					<h1>Metodologia ágil</h1>
+					<p>Lorem ipsum dolor sit sit amet Lorem ipsum dolor sit amet dolores amet dolores ab lorem ipsum dolor sit amet
+						consecutor
+						dolores ab.</p>
+					<p>Lorem ipsum dolor sit amet dolores ab lorem ipsum dolor sit amet Lorem ipsum dolor sit amet dolores ab lorem
+						ipsum dolor
+						ab lorem ipsum dolor sit amet Lorem ipsum dolor sit amet dolores sit amet.</p>
+				</div>
+				<div class="imagens2">
+					<div class="slide1"></div>
+					<div class="slide2"></div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="azul"></div>
+			<div class="container">
+				<div class="institucional">
+					<ul>
+						<li>
+							<a href="contato.html">Contato</a>
+						</li>
+						<li>
+							<a href="sobre.html">Sobre a CarFel</a>
+						</li>
+						<li>
+							<a href="contato.html">Atendimento</a>
+						</li>
+					</ul>
+				</div>
+				<div class="midia-social">
+					<ul>
+						<li>
+							<a href="https://github.com/" target="blank">
+								<i class="fab fa-github"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/" target="blank">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.dropbox.com/" target="blank">
+								<i class="fab fa-dropbox"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="laranja">
+				<p>2018 Alguns Direitos Reservados</p>
+			</div>
+		</footer>
+	</div>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script>
+		$(function () {
+			$('.toggle').click(function(){
+				$('.layout').toggleClass('layout1').toggleClass('layout_ativo');
+				$('.menu-logo').toggleClass('menu-logo-hide');
+			});
+		});
+	</script>
+</body>
+</html>

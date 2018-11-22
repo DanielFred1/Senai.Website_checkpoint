@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo_contato.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="IMG/Logo/Logo.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>CheckPoint - Contato</title>
+</head>
+
+<body>
+    <div class="menu-responsivo">
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="checkpoint.html">CheckPoint</a>
+            </li>
+            <li>
+                <a href="sobre.html">Sobre</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </div>
+    <div class="layout layout1">
+        <header>
+            <nav class="menu">
+                <div class="menu-logo">
+                    <a href="index.html">
+                        <img src="IMG/Logo/Logo.png" alt="Logotipo CheckPoint">
+                    </a>
+                </div>
+                <a class="toggle" href="javascript:;"><i class="fas fa-bars"></i></a>
+                <div class="menu-links">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="checkpoint.html">CheckPoint</a>
+                        </li>
+                        <li>
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="duvidas">
+                <div class="slide">
+                    <div class="box box_1"></div>
+                </div>
+                <div class="texto">
+                    <h1>A CarFel</h1>
+                    <p>Lorem ipsum dolor sit amet dolores ab lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
+                        dolores
+                        ab lorem
+                        ipsum dolor.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit sit amet Lorem ipsum dolor sit amet dolores amet dolores ab lorem ipsum
+                        dolor
+                        sit amet
+                        consecutor dolores ab. Lorem ipsum dolor sit dolores ab Lorem ipsum dolor sit amet dolores ab
+                        lorem
+                        ipsum
+                        dolor ab lorem ipsum dolor sit amet Lorem ipsum dolor sit amet dolores sit amet.</p>
+                </div>
+            </section>
+            <div class="formulario">
+                <div class="formulario_box">
+                    <h1>Entre em contato conosco</h1>
+                    <form>
+                        <input type="text" name="usuario" placeholder="nome de usuário">
+                        <input type="email" name="email" placeholder="insira seu email">
+                        <input type="password" name="senha" placeholder="insira sua senha">
+                        <textarea name="mensagem" id="mensagem" placeholder="insira sua mensagem"></textarea>
+                        <input type="submit" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="azul"></div>
+            <div class="container">
+                <div class="institucional">
+                    <ul>
+                        <li>
+                            <a href="contato.html">Contato</li>
+                        <li>
+                            <a href="sobre.html">Sobre a CarFel</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Atendimento</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="midia-social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.dropbox.com/" target="blank">
+                                <i class="fab fa-dropbox"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="laranja">
+                <p>2018 Alguns Direitos Reservados</p>
+            </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $('.toggle').click(function () {
+                $('.layout').toggleClass('layout1').toggleClass('layout_ativo');
+                $('.menu-logo').toggleClass('menu-logo-hide');
+            });
+        });
+    </script>
+    </footer>
+</body>
+
+</html>
