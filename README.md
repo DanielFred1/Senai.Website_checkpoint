@@ -34,11 +34,3 @@ Na página **Sobre**, temos uma apresentação da empresa e a localização da m
 Ocorreram algumas alterações visuais, as imagens abaixo são os wireframes de alta fidelidade, mas no projeto final algumas imagens foram alteradas, bem como a localização e o formulário de contato.
 
 
-
-![](C:\Users\Daniel\Desktop\Senai.Website_checkpoint\Imagens Layout\Layout Alta Fidelidade - CarFel2_Prancheta 1.png)
-
-![Layout Alta Fidelidade - CarFel2b-02](C:\Users\Daniel\Desktop\Senai.Website_checkpoint\Imagens Layout\Layout Alta Fidelidade - CarFel2b-02.png)
-
-![Layout Alta Fidelidade - CarFel2c-03](C:\Users\Daniel\Desktop\Senai.Website_checkpoint\Imagens Layout\Layout Alta Fidelidade - CarFel2c-03.png)
-
-![Layout Alta Fidelidade - CarFel2d-04](C:\Users\Daniel\Desktop\Senai.Website_checkpoint\Imagens Layout\Layout Alta Fidelidade - CarFel2d-04.png)
